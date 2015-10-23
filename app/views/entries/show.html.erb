@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @entry.company %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @entry.category %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @entry.link %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @entry.date %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @entry.position %>
+</p>
+
+<p>
+  <strong>Period:</strong>
+  <%= @entry.period %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>

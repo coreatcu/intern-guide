@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company: MyString
+  category: MyString
+  link: MyString
+  date: MyString
+  position: MyString
+  period: MyString
+
+two:
+  company: MyString
+  category: MyString
+  link: MyString
+  date: MyString
+  position: MyString
+  period: MyString
