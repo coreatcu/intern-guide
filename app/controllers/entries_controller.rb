@@ -5,6 +5,7 @@ class EntriesController < ApplicationController
   # GET /entries.json
   def index
     @entries = Entry.all
+    render json: @entries
   end
 
   # GET /entries/1
